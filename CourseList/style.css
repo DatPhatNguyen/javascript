@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  padding: 5% 10%;
+  flex-direction: column;
+}
+input {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  width: 90%;
+}
+label {
+  font-weight: bold;
+}
+#add-course-btn {
+  margin-top: 8px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+  background: rgb(79, 142, 174);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-delete {
+  border: none;
+  outline: none;
+  background: hotpink;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.update-delete {
+  border: none;
+  outline: none;
+  background: rgb(230, 147, 111);
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 16px 0;
+  display: block;
+}
+.form-container {
+  margin-top: 16px;
+  border: thin solid #999;
+  padding: 16px 12px;
+}
+.form-container > * {
+  margin-left: 24px;
+}

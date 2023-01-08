@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "JS",
+      "description": "Học xong giỏi liền"
+    },
+    {
+      "id": 2,
+      "name": "Xây dựng Nodejs và Reactjs 2 ",
+      "description": "Xây dựng Nodejs và Reactjs trong thực tế 2"
+    }
+  ],
+  "comment": [
+    {
+      "id": 1,
+      "description": "Troáy quá anh ơi"
+    },
+    {
+      "id": 2,
+      "description": "Hay quá anh ơi"
+    }
+  ]
+}
